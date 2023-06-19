@@ -6,9 +6,30 @@ html {
 
 p {
     display: flex;
+    margin-top: 400px;
+    margin-bottom: 400px;
+    transition: all 250ms linear 0s;
     justify-content: center;
-    padding-top: 400px;
-    padding-bottom: 400px;
+}
+
+p:hover {
+    background-color: black;
+    font-size: 15px;
+}
+
+p #message {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 340px;
+    left: 664px;
+    color: rgba(47, 225, 0, 0);
+    transition: all 250ms linear 0s;
+}
+
+p #message:hover {
+    top: 320px;
+    color: rgba(47, 225, 0, 1);
 }
 
 #bg {
