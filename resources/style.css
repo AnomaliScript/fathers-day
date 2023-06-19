@@ -1,12 +1,11 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: slateblue;
-    background-image: url("./images/bg-image.jpg");
-    background-size: cover;
 }
 
 p {
     display: flex;
     justify-content: center;
     box-sizing: border-box;
+    background-image: url("./images/bg-image.jpg");
 }
