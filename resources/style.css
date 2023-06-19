@@ -13,20 +13,8 @@ p {
 }
 
 p:hover {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     font-size: 15px;
-}
-
-body p#message {
-    position: absolute;
-    top: 340px;
-    left: 664px;
-    color: rgba(47, 225, 0, 0);
-}
-
-body p#message:hover {
-    top: 320px;
-    color: rgba(47, 225, 0, 1);
 }
 
 #bg {
