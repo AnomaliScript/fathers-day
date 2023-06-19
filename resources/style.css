@@ -1,6 +1,7 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: slateblue;
+    color: rgb(26, 9, 141);
+    background-image: linear-gradient(to bottom left, white, gray);
 }
 
 p {
