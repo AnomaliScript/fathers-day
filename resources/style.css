@@ -17,17 +17,14 @@ p:hover {
     font-size: 15px;
 }
 
-p #message {
-    display: flex;
-    justify-content: center;
+p#message {
     position: absolute;
     top: 340px;
     left: 664px;
     color: rgba(47, 225, 0, 0);
-    transition: all 250ms linear 0s;
 }
 
-p #message:hover {
+p#message:hover {
     top: 320px;
     color: rgba(47, 225, 0, 1);
 }
