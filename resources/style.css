@@ -1,20 +1,20 @@
 html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(20, 96, 3);
+    color: rgb(47, 225, 0);
     background-image: linear-gradient(to bottom left, white, gray);
 }
 
 p {
-    z-index: 1;
     display: flex;
     justify-content: center;
-    box-sizing: border-box;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 400px;
+    padding-bottom: 400px;
 }
 
 #bg {
     display: flex;
-    justify-content: center;
-    margin-top: 300px;
+    position: absolute;
+    z-index: -1;
+    top: 340px;
+    left: 664px;
 }
