@@ -17,14 +17,14 @@ p:hover {
     font-size: 15px;
 }
 
-p#message {
+body p#message {
     position: absolute;
     top: 340px;
     left: 664px;
     color: rgba(47, 225, 0, 0);
 }
 
-p#message:hover {
+body p#message:hover {
     top: 320px;
     color: rgba(47, 225, 0, 1);
 }
